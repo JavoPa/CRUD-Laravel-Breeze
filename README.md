@@ -64,3 +64,23 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+## Sobre el proyecto
+
+Installar PHP y composer
+
+Instalar XAMPP
+
+Añadir a las variables de entorno Path la ruta C:/XAMPP/php
+
+
+starter kit: breeze
+
+Breeze stack: blade with alphine
+
+dark mode support: yes
+
+testing framekork: Pest
+
+git repository: yes
