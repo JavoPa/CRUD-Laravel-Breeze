@@ -107,4 +107,18 @@ Dejar los valores por defecto de la conexión a la BD en el .env
 
 `php artisan serve` (para encender el servidor en local)
 
+#### Uso de App/Models
+
+En la sección de modelos de Laravel, puedes hacer varias cosas además de definir los atributos que son asignables masivamente ($fillable). Aquí hay algunas de las cosas más comunes que puedes hacer:
+
+- Definir relaciones: Puedes definir cómo se relaciona tu modelo con otros modelos. Por ejemplo, si un Objeto pertenece a un Usuario, puedes definir una relación belongsTo
+- 
+- Definir mutadores y accesores: Los mutadores y accesores te permiten definir cómo se deben manipular los atributos de tu modelo cuando los estableces o los obtienes. Por ejemplo, puedes definir un mutador para el atributo nombre que convierta el nombre a mayúsculas antes de guardarlo en la base de datos
+- 
+- Definir propiedades $casts: La propiedad $casts te permite convertir los valores de los atributos a tipos comunes cuando los obtienes de la base de datos. Por ejemplo, puedes convertir un atributo is_active a un booleano
+- 
+- Definir propiedades $dates: La propiedad $dates te permite tratar los atributos de tu modelo como instancias de Carbon (la biblioteca de fechas de PHP que Laravel utiliza). Por ejemplo, puedes agregar un atributo published_at a $dates para poder manipularlo como una fecha
+
+Estas son solo algunas de las cosas que puedes hacer en un modelo de Laravel. Los modelos son una parte fundamental de Laravel y te permiten interactuar con tu base de datos de una manera orientada a objetos.
+
 [Sobre Laravel](./LARAVEL.md)
