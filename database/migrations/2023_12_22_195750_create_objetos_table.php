@@ -14,6 +14,8 @@ return new class extends Migration
         Schema::create('objetos', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
+            $table->string('nombre');
+            $table->text('descripcion');
         });
     }
 
